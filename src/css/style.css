@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -24,18 +28,23 @@ body {
     padding-left: 32px;
 }
 
-.menu, li {
+.menu,
+li {
     font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     margin-right: 46px;
 }
 
-.menu, li, a {
+.menu,
+li,
+a {
     text-decoration: none;
     color: #000;
 }
 
+
 section .container {
+    display: flex;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -43,5 +52,51 @@ section .container {
     height: 871px;
 }
 
+.image_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 57px;
+
+}
 
 
+.text_pix {
+  
+    color: #fff;
+}
+
+.logo_pix {
+    display: flex;
+}
+
+.text_pix h1 {
+    font-size: 41px;
+    margin-bottom: 20px;
+}
+
+.text_pix, p {
+    line-height: 30px;
+    font-size: 23px;
+    width: 560px;
+}
+
+.direct_text {
+    font-size: 18px;
+    margin-top: 31px;
+}
+
+.cadastro_cartao {
+    border-radius: 1rem;
+    background-color: #fff;
+    width: 330px;
+    height: 310px;
+    margin-right: 57px;
+}
+
+.text_cpf input {
+    border: none;
+    border-bottom: 1px solid #999;
+    border: 1px solid #fff;
+}
