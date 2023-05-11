@@ -15,6 +15,10 @@
       section .container {
         background-image: url(./src/imagem/imagem_de_fundocartao-de-credito-nubank.jpg);
       }
+      
+      .logo_pix {
+        background-image: url(./src/imagem/nubank-95-branca.svg);
+      }
     </style>
 
     <title>Pix | Nubank</title>
@@ -38,7 +42,7 @@
       <div class="container">
         <div class="image_desc">
           <div class="text_pix">
-            <div class="logo_pix">logo</div>
+            <div class="logo_pix"></div>
             <h1>Pix no Nubank</h1>
             <p>
               O melhor jeito de fazer transferências e pagamentos instantâneos,
@@ -49,8 +53,18 @@
             <div class="direct_text">Conheça o Pix</div>
           </div>
           <div class="cadastro_cartao">
-            <form class="text_cpf" action="">
-              <input type="number" name="" id="">
+            <h1>Peça sua conta e cartão de crédito do Nubank</h1>
+            <form class="text_cpf" action="#">
+              <input
+                class="desc_cpf"
+                type="text"
+                name="cpf"
+                id="cpf"
+                placeholder="Digite seu CPF"
+                required
+              />
+              <label for=""></label>
+              <input class="cpf_botao" type="submit" value="Continuar" />
             </form>
           </div>
         </div>

@@ -63,12 +63,15 @@ section .container {
 
 
 .text_pix {
-  
+
     color: #fff;
 }
 
 .logo_pix {
-    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
 }
 
 .text_pix h1 {
@@ -76,7 +79,8 @@ section .container {
     margin-bottom: 20px;
 }
 
-.text_pix, p {
+.text_pix,
+p {
     line-height: 30px;
     font-size: 23px;
     width: 560px;
@@ -88,6 +92,9 @@ section .container {
 }
 
 .cadastro_cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 1rem;
     background-color: #fff;
     width: 330px;
@@ -95,8 +102,84 @@ section .container {
     margin-right: 57px;
 }
 
-.text_cpf input {
-    border: none;
-    border-bottom: 1px solid #999;
-    border: 1px solid #fff;
+.cadastro_cartao h1 {
+    width: 280px;
+    margin-bottom: 57px;
 }
+
+.text_cpf {
+    position: relative;
+}
+
+.text_cpf, .desc_cpf {
+    font-size: 14px;
+    font-weight: 500;
+    height: 25px;
+    width: 282px;
+    border: none;
+    outline: none;
+    margin-top: 14px;
+    border-bottom: 1px solid #999;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+}
+
+
+
+.text_cpf input:focus {
+    border-bottom: 1px solid #999;
+}
+
+.text_cpf input::placeholder {
+    color: transparent;
+}
+
+.text_cpf label {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+}
+
+.text_cpf input:required:invalid+label {
+    color: #555;
+}
+
+.text_cpf input:focus:required:invalid {
+    border-bottom: 1px solid #000;
+}
+
+.text_cpf input:required:invalid+label:before {
+    content: 'Digite seu CPF';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text_cpf input:focus + label,
+.text_cpf input:not(:placeholder-shown) + label{
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.cpf_botao  {
+    display: flex;
+    width: 290px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 1px solid #9c4bb4;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #9c4bb4;
+    font-size: 16px;
+
+}
+
+
+
