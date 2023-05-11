@@ -1,0 +1,21 @@
+@media (max-width:426px){
+
+    .container {
+        min-width: 444px;
+    }
+
+    .text_pix, p {
+        width: 310px;
+        text-align: justify;
+    }
+
+    .image_desc {
+        margin-left: 37px;
+    }
+
+    .cadastro_cartao {
+        width: 310px;
+    }
+
+ 
+}

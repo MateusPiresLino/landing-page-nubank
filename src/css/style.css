@@ -16,21 +16,21 @@ body {
     background-color: #fff;
 }
 
-.logo_nu img {
+.logo_nu_menu img {
     margin-left: 42px;
     width: 45px;
 }
 
 .menu {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     list-style: none;
     padding-left: 32px;
 }
 
 .menu,
 li {
-    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     margin-right: 46px;
 }
@@ -54,24 +54,32 @@ section .container {
 
 .image_desc {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     margin-left: 57px;
-
 }
 
 
 .text_pix {
-
     color: #fff;
 }
 
-.logo_pix {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50px;
-    height: 50px;
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.logo_nu_branca img {
+    width: 40px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.logo_pix img {
+    width: auto;
+    height: 25px;
 }
 
 .text_pix h1 {
@@ -83,17 +91,19 @@ section .container {
 p {
     line-height: 30px;
     font-size: 23px;
-    width: 560px;
+    max-width: 560px;
 }
 
-.direct_text {
+.direct_text a {
     font-size: 18px;
     margin-top: 31px;
+    color: #fff;
 }
 
 .cadastro_cartao {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     border-radius: 1rem;
     background-color: #fff;
@@ -111,7 +121,8 @@ p {
     position: relative;
 }
 
-.text_cpf, .desc_cpf {
+.text_cpf,
+.desc_cpf {
     font-size: 14px;
     font-weight: 500;
     height: 25px;
@@ -160,16 +171,16 @@ p {
     font-weight: 500;
 }
 
-.text_cpf input:focus + label,
-.text_cpf input:not(:placeholder-shown) + label{
-  font-size: 14px;
-  margin-top: 0;
+.text_cpf input:focus+label,
+.text_cpf input:not(:placeholder-shown)+label {
+    font-size: 14px;
+    margin-top: 0;
 }
 
-.cpf_botao  {
+.cpf_botao {
     display: flex;
     width: 290px;
-    height: 50px;
+    height: 57px;
     margin-top: 20px;
     padding-left: 20px;
     border: none;
@@ -180,6 +191,3 @@ p {
     font-size: 16px;
 
 }
-
-
-
