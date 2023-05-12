@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -28,15 +28,13 @@ body {
     padding-left: 32px;
 }
 
-.menu,
-li {
+.menu li {
     font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     margin-right: 46px;
 }
 
-.menu,
-li,
+.menu li,
 a {
     text-decoration: none;
     color: #000;
@@ -62,7 +60,7 @@ section .container {
 }
 
 
-.text_pix {
+.text_nubank {
     color: #fff;
 }
 
@@ -72,29 +70,28 @@ section .container {
 }
 
 .logo_nu_branca img {
-    width: 40px;
-    height: 24px;
+    width: 50px;
+    height: 30px;
     margin-right: 15px;
 }
 
 .logo_pix img {
     width: auto;
-    height: 25px;
+    height: 35px;
 }
 
-.text_pix h1 {
+.text_nubank h1 {
     font-size: 41px;
     margin-bottom: 20px;
 }
 
-.text_pix,
-p {
+.text_nubank p {
     line-height: 30px;
     font-size: 23px;
     max-width: 560px;
 }
 
-.direct_text a {
+.sobre_pix a {
     font-size: 18px;
     margin-top: 31px;
     color: #fff;
@@ -190,4 +187,102 @@ p {
     background-color: #9c4bb4;
     font-size: 16px;
 
+}
+
+.infor_pix {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 140px;
+    margin-bottom: 75px;
+
+}
+
+.desc_pix h1 {
+    font-size: 38px;
+    width: 380px;
+}
+
+.desc_pix p {
+    font-size: 21px;
+    text-align: justify;
+    width: 380px;
+    line-height: 30px;
+    color: #000;
+}
+
+.video_nubank video {
+    height: 510px;
+}
+
+
+.vantagens_pix {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    list-style: none;
+}
+
+.vantagens_pix ul { 
+    list-style: none;
+}
+
+.desc_lista {
+    margin-top: 40px;
+    line-height: 5px;
+}
+
+.desc_vantagens {
+    width: 660px;
+}
+
+.desc_vantagens h4 {
+    font-size: 20px;
+}
+
+.desc_vantagens p {
+    font-size: 15px;
+}
+
+.container_chaves_pix {
+    width: 100%;
+}
+
+.chaves_pix {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+
+.image_homem img {
+    height: 650px;
+}
+
+.desc_chaves_pix h1 {
+    font-size: 55px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.desc_chaves_pix p {
+    font-size: 19px;
+    line-height: 30px;
+    width: 650px;
+    margin-left: 28px;
+}
+
+.sub_desc_chavepix h4 {
+    font-size: 22px;
+    margin-left: 28px;
+    margin-bottom: 30px;
+}
+
+.registro_chaves {
+    display: flex;
+    list-style: none;
+}
+
+.lista_chaves li {
+    width: 350px;
+    padding-bottom: 15px;
+    color: #555;
 }
