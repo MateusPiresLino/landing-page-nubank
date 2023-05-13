@@ -7,6 +7,20 @@
 
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/mobile.css" />
+
+    <script type="text/javascript">
+      window.onload = function () {
+        document.querySelector(".menumobile")
+          .addEventListener("click", function () {
+            if (document.querySelector(".menu nav ul").style.display == 'flex') {
+              document.querySelector(".menu nav ul").style.display = 'none';
+            } else {
+              document.querySelector(".menu nav ul").style.display = 'flex';
+            }
+          });
+      };
+    </script>
+
     <style>
       section .container {
         background-image: url(./src/imagem/imagem_de_fundocartao-de-credito-nubank.jpg);
@@ -20,10 +34,15 @@
       <div class="logo_nu_menu">
         <a href=""><img src="./src/imagem/logonubank-96.svg" alt="" /></a>
       </div>
+      <div class="menumobile">
+        <div class="menu_linha"></div>
+        <div class="menu_linha"></div>
+        <div class="menu_linha"></div>
+      </div>
       <nav>
         <ul class="menu">
           <li><a href="#">Para você</a></li>
-          <li><a href="#">Para seu negócio</a></li>
+          <li><a href="#">Seu negócio</a></li>
           <li><a href="#">O Nubank</a></li>
           <li><a href="#">Perguntas</a></li>
         </ul>

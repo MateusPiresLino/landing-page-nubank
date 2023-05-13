@@ -1,13 +1,29 @@
-@media (max-width: 650px) {
+@media (max-width: 800px) {
+
+    nav {
+        display: flex;
+    }
+
+    .menumobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+    }
 
     .menu {
-        flex-wrap: wrap;
-        justify-content: end;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;       
     }
 
     .menu li,
     a {
         font-size: 20px;
+        padding: 5px;
     }
 
     .image_desc {

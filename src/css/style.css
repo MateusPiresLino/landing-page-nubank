@@ -9,6 +9,7 @@ body {
 
 .cabecalho {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 4px;
     background-color: #fff;
@@ -17,6 +18,20 @@ body {
 .logo_nu_menu img {
     margin-left: 42px;
     width: 45px;
+}
+
+.menumobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.menu_linha {
+    height: 2px;
+    background-color: #9c4bb4;
 }
 
 .menu {
