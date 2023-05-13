@@ -22,6 +22,7 @@
     .menu li,
     a {
         font-size: 20px;
+        padding-bottom: 20px;
     }
 
     .image_desc {
@@ -92,6 +93,10 @@
         margin: 10px;
     }
 
+    .desc_chaves_pix {
+        width: 440px;
+    }
+
     .desc_chaves_pix h1 {
         font-size: 30px;
         margin-top: 50px;
@@ -120,11 +125,10 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-top: 50px;
+        height: 180px;
     }
 
     .rodape p {
-        margin: 0px 10px 0px 10px;
         border-bottom: 1px solid #555;
         padding-bottom: 10px;
     }
