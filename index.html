@@ -10,12 +10,15 @@
 
     <script type="text/javascript">
       window.onload = function () {
-        document.querySelector(".menumobile")
+        document
+          .querySelector(".menumobile")
           .addEventListener("click", function () {
-            if (document.querySelector(".menu nav ul").style.display == 'flex') {
-              document.querySelector(".menu nav ul").style.display = 'none';
+            if (
+              document.querySelector(".menu nav ul").style.display == "flex"
+            ) {
+              document.querySelector(".menu nav ul").style.display = "none";
             } else {
-              document.querySelector(".menu nav ul").style.display = 'flex';
+              document.querySelector(".menu nav ul").style.display = "flex";
             }
           });
       };
@@ -28,25 +31,28 @@
     </style>
 
     <title>Pix | Nubank</title>
+    
   </head>
   <body>
     <header class="cabecalho">
       <div class="logo_nu_menu">
         <a href=""><img src="./src/imagem/logonubank-96.svg" alt="" /></a>
       </div>
-      <div class="menumobile">
-        <div class="menu_linha"></div>
-        <div class="menu_linha"></div>
-        <div class="menu_linha"></div>
+      <div class="menu">
+        <nav>
+          <div class="menumobile">
+            <div class="menu_linha"></div>
+            <div class="menu_linha"></div>
+            <div class="menu_linha"></div>
+          </div>
+          <ul>
+            <li><a href="#">Para você</a></li>
+            <li><a href="#">Seu negócio</a></li>
+            <li><a href="#">O Nubank</a></li>
+            <li><a href="#">Perguntas</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul class="menu">
-          <li><a href="#">Para você</a></li>
-          <li><a href="#">Seu negócio</a></li>
-          <li><a href="#">O Nubank</a></li>
-          <li><a href="#">Perguntas</a></li>
-        </ul>
-      </nav>
     </header>
     <section>
       <div class="container">

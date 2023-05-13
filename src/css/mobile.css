@@ -1,29 +1,27 @@
-@media (max-width: 800px) {
+@media (max-width: 880px) {
 
-    nav {
-        display: flex;
+    header {
+        height: auto;
     }
 
-    .menumobile {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 10px;
-    }
+   nav ul {
+    display: none;
+    flex-direction: column;
+    position:absolute;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+   }
 
-    .menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        left: 0;
-        width: 100%;
-        background-color: #fff;       
-    }
+   .menumobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   }
 
     .menu li,
     a {
         font-size: 20px;
-        padding: 5px;
     }
 
     .image_desc {
@@ -119,18 +117,21 @@
     }
 
     .rodape {
+        display: flex;
+        flex-direction: column;
         width: 100%;
         margin-top: 50px;
     }
 
     .rodape p {
         margin: 0px 10px 0px 10px;
+        border-bottom: 1px solid #555;
+        padding-bottom: 10px;
     }
 
     .rede_social img {
         width: auto;
-        height: 35px;
-        margin: 5px;
+        height: 30px;
     }
 
 }
