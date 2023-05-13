@@ -1,12 +1,22 @@
-@media (max-width:426px){
+@media (max-width: 650px) {
 
-    .container {
-        min-width: 444px;
+    .menu {
+        flex-wrap: wrap;
+        justify-content: end;
     }
 
-    .text_pix, p {
-        width: 310px;
-        text-align: justify;
+    .menu li,
+    a {
+        font-size: 20px;
+    }
+
+    .image_desc {
+        flex-wrap: wrap;
+    }
+
+    .text_pix,
+    p {
+        width: 290px;
     }
 
     .image_desc {
@@ -17,5 +27,94 @@
         width: 310px;
     }
 
- 
+    .container {
+        margin-bottom: 40px;
+    }
+
+    .infor_pix {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .infor_pix h1 {
+        margin-left: 20px;
+    }
+
+    .infor_pix p {
+        margin-left: 20px;
+        width: 340px;
+    }
+
+    .video_nubank video {
+      width: 375px;
+    }
+
+    .vantagens_pix {
+        flex-wrap: wrap;
+    }
+
+    .desc_vantagens {
+        width: 350px;
+    }
+
+    .desc_vantagens h4 {
+        font-size: 20px;
+    }
+
+    .desc_vantagens p {
+        line-height: 20px;
+    }
+
+    .container_chaves_pix {
+        flex-wrap: wrap;
+        width: auto;
+        margin-top: 40px;
+    }
+
+    .chaves_pix {
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .desc_chaves_pix h1 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .desc_chaves_pix p {
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    .sub_desc_chavepix h4 {
+        font-size: 16px;
+        width: 460px;
+    }
+
+    .box_chaves1 {
+        width: 180px;
+    }
+
+    .image_homem img {
+        width: 370px;
+        width: auto;
+    }
+
+    .rodape {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .rodape p {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .rede_social img {
+        width: auto;
+        height: 35px;
+        margin: 5px;
+    }
+
 }
