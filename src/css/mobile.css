@@ -1,140 +1,123 @@
-@media (max-width: 880px) {
+@media (max-width: 900px) {
+
 
     header {
         height: auto;
     }
 
-   nav ul {
-    display: none;
-    flex-direction: column;
-    position:absolute;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-   }
-
-   .menumobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-   }
-
-    .menu li,
-    a {
-        font-size: 20px;
-        padding-bottom: 20px;
+    .logo_nu_menu img {
+        margin-left: 10px;
     }
 
-    .image_desc {
-        flex-wrap: wrap;
-    }
-
-    .text_pix,
-    p {
-        width: 290px;
-    }
-
-    .image_desc {
-        margin-left: 37px;
-    }
-
-    .cadastro_cartao {
-        width: 310px;
-    }
-
-    .container {
-        margin-bottom: 40px;
-    }
-
-    .infor_pix {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 15px;
-        margin-bottom: 20px;
-    }
-
-    .infor_pix h1 {
-        margin-left: 20px;
-    }
-
-    .infor_pix p {
-        margin-left: 20px;
-        width: 340px;
-    }
-
-    .video_nubank video {
-      width: 375px;
-    }
-
-    .vantagens_pix {
-        flex-wrap: wrap;
-    }
-
-    .desc_vantagens {
-        width: 350px;
-    }
-
-    .desc_vantagens h4 {
-        font-size: 20px;
-    }
-
-    .desc_vantagens p {
-        line-height: 20px;
-    }
-
-    .container_chaves_pix {
-        flex-wrap: wrap;
-        width: auto;
-        margin-top: 40px;
-    }
-
-    .chaves_pix {
-        flex-wrap: wrap;
-        margin: 10px;
-    }
-
-    .desc_chaves_pix {
-        width: 440px;
-    }
-
-    .desc_chaves_pix h1 {
-        font-size: 30px;
-        margin-top: 50px;
-    }
-
-    .desc_chaves_pix p {
-        font-size: 20px;
-        margin-bottom: 60px;
-    }
-
-    .sub_desc_chavepix h4 {
-        font-size: 16px;
-        width: 460px;
-    }
-
-    .box_chaves1 {
-        width: 180px;
-    }
-
-    .image_homem img {
-        height: 450px;
-    }
-
-    .rodape {
-        display: flex;
+    nav ul {
+        display: none;
         flex-direction: column;
+        position: absolute;
+        left: 0;
         width: 100%;
-        height: 180px;
+        background-color: #fff;
     }
 
-    .rodape p {
-        border-bottom: 1px solid #555;
+    nav li {
         padding-bottom: 10px;
     }
 
-    .rede_social img {
-        width: auto;
-        height: 30px;
+    .menumobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
+    .image_desc {
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    
+    .text_nubank p {
+        font-size: 18px;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logos {
+        margin-left: 12px;
+    }
+
+    .text_nubank h1 {
+        margin-left: 10px;
+    }
+
+    .sobre_pix a {
+        margin: 10px;
+    }
+
+    .cadastro_cartao {
+        margin-left: 10px;
+    }
+
+    .desc_pix h1 {
+        width: 100%;
+    }
+
+    .desc_pix p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .video_nubank video {
+        width: 100%;
+    }
+
+    .desc_vantagens li {
+        width: 100%;
+    }
+
+    .desc_lista {
+        line-height: 1;
+    }
+
+    .vantagens_pix {
+        width: 100%;
+    }
+
+    .vantagens_pix ul {
+        width: 100%;
+    }
+
+    .image_homem img {
+        width: 100%;
+        height: auto;
+    }
+
+    .desc_chaves_pix {
+        width: 100%;
+    }
+
+    .desc_chaves_pix h1 {
+        padding-left: 10px;
+    }
+
+    .desc_chaves_pix p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .sub_desc_chavepix h4 {
+        margin-left: 10px;
+    }
+
+    .registro_chaves {
+        flex-wrap: wrap;
+    }
+
+    .box_chaves1 {
+        width: 100%;
+    }
+
+    .rodape {
+        flex-wrap: wrap;
+        height: auto;
+    }
 }

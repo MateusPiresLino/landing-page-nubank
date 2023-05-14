@@ -16,7 +16,7 @@ body {
 }
 
 .logo_nu_menu img {
-    margin-left: 42px;
+    margin-left: 44px;
     width: 45px;
 }
 
@@ -40,13 +40,9 @@ nav ul {
     margin-right: 20px;
 }
 
-nav li {
-    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-}
-
 nav li
 a {
+    font-size: 16px;
     text-decoration: none;
     color: #000;
     padding-bottom: 10px;
@@ -58,7 +54,8 @@ section .container {
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 875px;
+    width: 100%;
+    height: 870px;
 }
 
 .image_desc {
@@ -113,7 +110,7 @@ section .container {
     align-items: center;
     border-radius: 1rem;
     background-color: #fff;
-    width: 330px;
+    width: 350px;
     height: 310px;
     margin-right: 57px;
 }
@@ -195,7 +192,6 @@ section .container {
     color: #fff;
     background-color: #9c4bb4;
     font-size: 16px;
-
 }
 
 .container {
@@ -226,7 +222,7 @@ section .container {
 }
 
 .video_nubank video {
-    max-width: 900px;
+    width: 880px;
     margin-bottom: 20px;
 
 }
@@ -269,12 +265,11 @@ section .container {
 }
 
 .image_homem img {
-    height: 700px;
+    height: 720px;
 }
 
 .desc_chaves_pix {
-    width: 620px;
-    margin-left: 20px;
+    width: 660px;
 }
 
 .desc_chaves_pix h1 {
@@ -284,7 +279,8 @@ section .container {
 
 .desc_chaves_pix p {
     font-size: 20px;
-    line-height: 30px;
+    text-align: justify;
+    line-height: 32px;
     margin-left: 28px;
 }
 
@@ -331,11 +327,12 @@ section .container {
 
 .rodape {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     text-align: justify;
     width: 100%;
-    height: 120px;
+    height: auto;
     background-color:  #222;
     margin-top: 50px;
 }
@@ -343,10 +340,11 @@ section .container {
 .copy {
     font-size: 12px;
     color: #999;
+    border-bottom: 1px solid #555;
 }
 
 .rede_social img {
-    height: 30px;
+    height: 35px;
     padding-bottom: 5px;
     margin: 10px;
 }
