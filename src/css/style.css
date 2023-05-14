@@ -240,7 +240,7 @@ section .container {
 }
 
 .desc_lista {
-    line-height: 2px;
+    line-height: 12px;
     padding-bottom: 10px;
 }
 

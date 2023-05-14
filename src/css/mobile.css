@@ -70,12 +70,29 @@
         width: 100%;
     }
 
+    .desc_vantagens {
+        margin: 0;
+        margin-top: 20px;
+    }
+
     .desc_vantagens li {
         width: 100%;
     }
 
+    .desc_vantagens h4 {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 0px;
+        padding-bottom: 15px;
+    }
+
+    .desc_vantagens p {
+        margin: 0;
+        padding-bottom: 15px;
+    }
+
     .desc_lista {
-        line-height: 1;
+        line-height: 25px;
     }
 
     .vantagens_pix {
