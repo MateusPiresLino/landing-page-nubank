@@ -250,11 +250,13 @@ section .container {
 }
 
 .desc_vantagens h4 {
+    line-height: 15px;
     font-size: 30px;
 }
 
 .desc_vantagens p {
-    font-size: 16px;
+    line-height: 15px;
+    font-size: 18px;
 }
 
 .container_chaves_pix {
