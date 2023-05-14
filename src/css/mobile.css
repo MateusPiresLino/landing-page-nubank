@@ -57,6 +57,10 @@
         margin-left: 10px;
     }
 
+    .cpf_botao {
+        width: 100%;
+    }
+
     .desc_pix h1 {
         width: 100%;
     }
