@@ -89,6 +89,7 @@
     .desc_vantagens p {
         margin: 0;
         padding-bottom: 15px;
+        line-height: 25px;
     }
 
     .desc_lista {
